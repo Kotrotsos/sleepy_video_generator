@@ -1,0 +1,44 @@
+{
+  "output": {
+    "resolution": "1920x1080",
+    "fps": 30,
+    "codec": "libx264",
+    "preset": "slow",
+    "crf": 18,
+    "audio_codec": "aac",
+    "audio_bitrate": "192k",
+    "pixel_format": "yuv420p"
+  },
+  "ken_burns": {
+    "zoom_rate": 0.00015,
+    "max_zoom": 1.35,
+    "pan_speed": 0.3,
+    "randomize_direction": true
+  },
+  "transitions": {
+    "fade_duration": 5.0,
+    "black_between_segments": false
+  },
+  "title": {
+    "enabled": true,
+    "display_duration": 10.0,
+    "fade_out_duration": 2.0,
+    "font_size": 56,
+    "font_color": "white",
+    "font": "Arial",
+    "shadow": true,
+    "shadow_color": "black@0.6",
+    "position": "center"
+  },
+  "intro": {
+    "enabled": true,
+    "duration": 3.0,
+    "text": "Slow Space: Meditations on the Cosmos",
+    "font_size": 48
+  },
+  "outro": {
+    "enabled": false,
+    "duration": 3.0,
+    "fade_to_black": true
+  }
+}

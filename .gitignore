@@ -1,0 +1,38 @@
+# Environment and secrets
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+ENV/
+
+# Generated output
+runs/
+generation.log
+
+# Content files (not part of pipeline)
+facts*.md
+narration*.md
+prompt.md
+article.md
+developer.md
+gemini.md
+
+# Test files
+test_image.png
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE/Editor
+.claude/
+.idea/
+.vscode/
+*.swp
+*.swo
